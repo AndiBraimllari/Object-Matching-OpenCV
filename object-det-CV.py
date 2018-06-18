@@ -2,7 +2,7 @@ import cv2 as cv
 import numpy as np
 
 capture = cv.VideoCapture(0)
-object = cv.imread('meh.png', 0)
+object = cv.imread('meh.png', 0)  # the aforementioned object 
 
 width, height = object.shape[::-1]
 
@@ -17,7 +17,7 @@ while True:
             a = 0
 
     cv.imshow('detect_me', frame)
-    if cv.waitKey(1) & 0xFF == ord('q'):  # waitKey returns a 32 bit, but we are interested only with first 8
+    if cv.waitKey(1) & 0xFF == ord('q'):  # waitKey returns a 32 bit, but we are interested only with first 8, thus 0xFF
         break
 
 capture.release()
