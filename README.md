@@ -6,3 +6,4 @@ the object, we can detect the latter in real time. When detected, blue rectangle
 
 
 ![Example](https://media.giphy.com/media/5sYh0SSReJBmZ7Uper/giphy.gif)
+<img src="https://media.giphy.com/media/5sYh0SSReJBmZ7Uper/giphy.gif" width="20"/>
